@@ -1,0 +1,436 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	ndn_schedule.c	/^static int A(SARGS) { if (flags & NDN_SCHEDULE_CANCEL) return(0);$/;"	f	file:
+AI_ADDRCONFIG	ndn_setup_sockaddr_un.c	/^#define AI_ADDRCONFIG /;"	d	file:
+B	ndn_schedule.c	/^static int B(SARGS) { printf("B"); return 0; }$/;"	f	file:
+C	ndn_schedule.c	/^static int C(SARGS) { printf("C"); return 0; }$/;"	f	file:
+CC	makefile	/^CC=gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS=-Wall$/;"	m
+CHECKHTE	hashtb.c	/^#define CHECKHTE(/;"	d	file:
+D	ndn_schedule.c	/^static int D(SARGS) { if (flags & NDN_SCHEDULE_CANCEL) return(0);$/;"	f	file:
+DATA	hashtb.c	/^#define DATA(/;"	d	file:
+ELEMENT	ndn_indexbuf.c	/^#define ELEMENT /;"	d	file:
+EXECUTABLE	makefile	/^EXECUTABLE=mypeek$/;"	m
+FF	ndn_versioning.c	/^#define FF /;"	d	file:
+KEY	hashtb.c	/^#define KEY(/;"	d	file:
+LDFLAGS	makefile	/^LDFLAGS=-lcrypto$/;"	m
+MARKHTE	hashtb.c	/^#define MARKHTE(/;"	d	file:
+MAX_ENUMERATORS	hashtb.c	/^#define MAX_ENUMERATORS /;"	d	file:
+NDN_FORW_WAITING_NDNDID	ndn_client.c	/^#define NDN_FORW_WAITING_NDNDID /;"	d	file:
+NDN_MAX_KEY_LINK_CHAIN	ndn_client.c	/^#define NDN_MAX_KEY_LINK_CHAIN /;"	d	file:
+NOTE_ERR	ndn_client.c	/^#define NOTE_ERR(/;"	d	file:
+NOTE_ERRNO	ndn_client.c	/^#define NOTE_ERRNO(/;"	d	file:
+Name	ndn_buf_decoder.c	/^    int Name;$/;"	m	struct:parsed_KeyName	file:
+OBJ	makefile	/^OBJ = mypeek.o hashtb.o ndn_bloom.o ndn_buf_decoder.o ndn_buf_encoder.o ndn_charbuf.o ndn_client.o ndn_coding.o ndn_digest.o\\$/;"	m
+PUBCERT_SUFFIX	ndn_keystore.c	/^#define PUBCERT_SUFFIX /;"	d	file:
+PUBCERT_SUFFIX_LEN	ndn_keystore.c	/^#define PUBCERT_SUFFIX_LEN /;"	d	file:
+PublisherID	ndn_buf_decoder.c	/^    int PublisherID;$/;"	m	struct:parsed_KeyName	file:
+SARGS	ndn_schedule.c	/^#define SARGS /;"	d	file:
+TESTSCHEDULE	ndn_schedule.c	/^int TESTSCHEDULE(int argc, char **argv)$/;"	f
+THIS_CANNOT_HAPPEN	ndn_client.c	/^#define THIS_CANNOT_HAPPEN(/;"	d	file:
+XML	ndn_coding.c	/^#define XML(/;"	d	file:
+XXX	ndn_client.c	/^#define XXX /;"	d	file:
+a	ndn_client.c	/^    struct multifilt_item *a;   \/**< The filters that are to be combined *\/$/;"	m	struct:multifilt	typeref:struct:multifilt::multifilt_item	file:
+action	ndn_client.c	/^    struct ndn_closure *action;  \/* 进来的内容的回调 handler for incoming content *\/$/;"	m	struct:expressed_interest	typeref:struct:expressed_interest::ndn_closure	file:
+action	ndn_client.c	/^    struct ndn_closure *action;$/;"	m	struct:interest_filter	typeref:struct:interest_filter::ndn_closure	file:
+action	ndn_client.c	/^    struct ndn_closure *action;$/;"	m	struct:multifilt_item	typeref:struct:multifilt_item::ndn_closure	file:
+action	ndn_client.c	/^    struct ndn_closure action;$/;"	m	struct:ndn_reg_closure	typeref:struct:ndn_reg_closure::ndn_closure	file:
+add_cert_extension	ndn_keystore.c	/^add_cert_extension(X509 *cert, int nid, char *value)$/;"	f	file:
+add_cert_extension_with_context	ndn_keystore.c	/^add_cert_extension_with_context(X509 *cert, int nid, char *value)$/;"	f	file:
+answer_highest	ndn_versioning.c	/^answer_highest(struct ndn_charbuf *templ)$/;"	f	file:
+answer_passive	ndn_versioning.c	/^answer_passive(struct ndn_charbuf *templ)$/;"	f	file:
+append_filter_all	ndn_versioning.c	/^append_filter_all(struct ndn_charbuf *c)$/;"	f	file:
+append_future_vcomp	ndn_versioning.c	/^append_future_vcomp(struct ndn_charbuf *templ)$/;"	f	file:
+bloom_nexthash	ndn_bloom.c	/^bloom_nexthash(int s, int u)$/;"	f	file:
+bloom_seed	ndn_bloom.c	/^bloom_seed(const struct ndn_bloom_wire *f)$/;"	f	file:
+bucket	hashtb.c	/^    struct node **bucket;       \/* hash桶 *\/$/;"	m	struct:hashtb	typeref:struct:hashtb::node	file:
+build_multifilt_array	ndn_client.c	/^build_multifilt_array(struct ndn *h,$/;"	f	file:
+certificate	ndn_keystore.c	/^    X509 *certificate;$/;"	m	struct:ndn_keystore	file:
+clienth	ndn_schedule.c	/^    void *clienth;$/;"	m	struct:ndn_schedule	file:
+clock	ndn_schedule.c	/^    const struct ndn_gettime *clock;$/;"	m	struct:ndn_schedule	typeref:struct:ndn_schedule::ndn_gettime	file:
+closure	ndn_client.c	/^    struct ndn_closure closure;$/;"	m	struct:simple_get_data	typeref:struct:simple_get_data::ndn_closure	file:
+compsbuf	ndn_client.c	/^    struct ndn_indexbuf *compsbuf;$/;"	m	struct:simple_get_data	typeref:struct:simple_get_data::ndn_indexbuf	file:
+connect_type	ndn_client.c	/^    struct ndn_charbuf *connect_type;   \/* 连接状态 text representing connection to ndnd *\/$/;"	m	struct:ndn	typeref:struct:ndn::ndn_charbuf	file:
+context	ndn_signing.c	/^    EVP_MD_CTX context;$/;"	m	struct:ndn_sigc	file:
+dd	ndn_schedule.c	/^static char dd[] = "ABDEFGHI";$/;"	v	file:
+decoder	ndn_client.c	/^    struct ndn_skeleton_decoder decoder;$/;"	m	struct:ndn	typeref:struct:ndn::ndn_skeleton_decoder	file:
+default_pubid	ndn_client.c	/^    struct ndn_charbuf *default_pubid;$/;"	m	struct:ndn	typeref:struct:ndn::ndn_charbuf	file:
+defer_verification	ndn_client.c	/^    int defer_verification;     \/* Client wants to do its own verification *\/$/;"	m	struct:ndn	file:
+deferred	hashtb.c	/^    struct node *deferred;      \/* 延后的清理工作 deferred cleanup *\/$/;"	m	struct:hashtb	typeref:struct:hashtb::node	file:
+destroy_multifilt_array	ndn_client.c	/^destroy_multifilt_array(struct ndn *h, struct multifilt_item **ap, int n)$/;"	f	file:
+digest_algorithm	ndn_keystore.c	/^    char *digest_algorithm;$/;"	m	struct:ndn_keystore	file:
+endName	ndn_buf_decoder.c	/^    int endName;$/;"	m	struct:parsed_KeyName	file:
+endPublisherID	ndn_buf_decoder.c	/^    int endPublisherID;$/;"	m	struct:parsed_KeyName	file:
+epochmax	ndn_schedule.c	/^static const heapmicros epochmax = ((heapmicros)(~0))\/2;$/;"	v	file:
+err	ndn_client.c	/^    int err;                    \/* pos => errno value, neg => other *\/$/;"	m	struct:ndn	file:
+errline	ndn_client.c	/^    int errline;$/;"	m	struct:ndn	file:
+ev	ndn_schedule.c	/^    struct ndn_scheduled_event *ev;$/;"	m	struct:ndn_schedule_heap_item	typeref:struct:ndn_schedule_heap_item::ndn_scheduled_event	file:
+event_time	ndn_schedule.c	/^    heapmicros event_time;$/;"	m	struct:ndn_schedule_heap_item	file:
+expiry	ndn_client.c	/^    struct timeval expiry;       \/* Time that refresh will be needed *\/$/;"	m	struct:interest_filter	typeref:struct:interest_filter::timeval	file:
+expressed_interest	ndn_client.c	/^struct expressed_interest {$/;"	s	file:
+extsize	hashtb.c	/^    size_t extsize;$/;"	m	struct:node	file:
+final256	ndn_signing.c	/^static int final256(EVP_MD_CTX *ctx,unsigned char *md)$/;"	f	file:
+finalize_interest_filter	ndn_client.c	/^finalize_interest_filter(struct hashtb_enumerator *e)$/;"	f	file:
+finalize_keystore	ndn_client.c	/^finalize_keystore(struct hashtb_enumerator *e)$/;"	f	file:
+finalize_pkey	ndn_client.c	/^finalize_pkey(struct hashtb_enumerator *e)$/;"	f	file:
+flags	ndn_client.c	/^    int flags;$/;"	m	struct:interest_filter	file:
+flags	ndn_client.c	/^    int flags;$/;"	m	struct:simple_get_data	file:
+forw_flags	ndn_client.c	/^    int forw_flags;$/;"	m	struct:multifilt_item	file:
+gt	ndn_schedule.c	/^static struct ndn_gettime gt = {"getTOD", &my_gettime, 1000000, NULL};$/;"	v	typeref:struct:ndn_gettime	file:
+handle_key	ndn_client.c	/^handle_key(struct ndn_closure *selfp,$/;"	f	file:
+handle_multifilt	ndn_client.c	/^handle_multifilt(struct ndn_closure *selfp,$/;"	f	file:
+handle_ndndid_response	ndn_client.c	/^handle_ndndid_response(struct ndn_closure *selfp,$/;"	f	file:
+handle_prefix_reg_reply	ndn_client.c	/^handle_prefix_reg_reply($/;"	f	file:
+handle_simple_incoming_content	ndn_client.c	/^handle_simple_incoming_content($/;"	f	file:
+hash	hashtb.c	/^    size_t hash;$/;"	m	struct:node	file:
+hashtb	hashtb.c	/^struct hashtb {$/;"	s	file:
+hashtb_create	hashtb.c	/^hashtb_create(size_t item_size, const struct hashtb_param *param)$/;"	f
+hashtb_delete	hashtb.c	/^hashtb_delete(struct hashtb_enumerator *hte)$/;"	f
+hashtb_destroy	hashtb.c	/^hashtb_destroy(struct hashtb **htp)$/;"	f
+hashtb_end	hashtb.c	/^hashtb_end(struct hashtb_enumerator *hte)$/;"	f
+hashtb_get_param	hashtb.c	/^hashtb_get_param(struct hashtb *ht, struct hashtb_param *param)$/;"	f
+hashtb_hash	hashtb.c	/^hashtb_hash(const unsigned char *key, size_t key_size)$/;"	f
+hashtb_lookup	hashtb.c	/^hashtb_lookup(struct hashtb *ht, const void *key, size_t keysize)$/;"	f
+hashtb_n	hashtb.c	/^hashtb_n(struct hashtb *ht)$/;"	f
+hashtb_next	hashtb.c	/^hashtb_next(struct hashtb_enumerator *hte)$/;"	f
+hashtb_rehash	hashtb.c	/^hashtb_rehash(struct hashtb *ht, unsigned n_buckets)$/;"	f
+hashtb_seek	hashtb.c	/^hashtb_seek(struct hashtb_enumerator *hte, const void *key, size_t keysize, size_t extsize)$/;"	f
+hashtb_start	hashtb.c	/^hashtb_start(struct hashtb *ht, struct hashtb_enumerator *hte)$/;"	f
+heap	ndn_schedule.c	/^    struct ndn_schedule_heap_item *heap;$/;"	m	struct:ndn_schedule	typeref:struct:ndn_schedule::ndn_schedule_heap_item	file:
+heap_height	ndn_schedule.c	/^    int heap_height;    \/* 使用前会被检测合法性 this is validated just before use *\/$/;"	m	struct:ndn_schedule	file:
+heap_insert	ndn_schedule.c	/^heap_insert(struct ndn_schedule_heap_item *heap, heapmicros micros,$/;"	f	file:
+heap_limit	ndn_schedule.c	/^    int heap_limit;$/;"	m	struct:ndn_schedule	file:
+heap_n	ndn_schedule.c	/^    int heap_n;$/;"	m	struct:ndn_schedule	file:
+heap_sift	ndn_schedule.c	/^heap_sift(struct ndn_schedule_heap_item *heap, int n)$/;"	f	file:
+heapmicros	ndn_schedule.c	/^typedef uintptr_t heapmicros;$/;"	t	file:
+hexit	ndn_uri.c	/^hexit(int c)$/;"	f	file:
+id	ndn_digest.c	/^    enum ndn_digest_id id;$/;"	m	struct:ndn_digest	typeref:enum:ndn_digest::ndn_digest_id	file:
+inbuf	ndn_client.c	/^    struct ndn_charbuf *inbuf;$/;"	m	struct:ndn	typeref:struct:ndn::ndn_charbuf	file:
+init256	ndn_signing.c	/^static int init256(EVP_MD_CTX *ctx)$/;"	f	file:
+initialized	ndn_keystore.c	/^    int initialized;$/;"	m	struct:ndn_keystore	file:
+interest_filter	ndn_client.c	/^    struct interest_filter *interest_filter; \/* Backlink *\/$/;"	m	struct:ndn_reg_closure	typeref:struct:ndn_reg_closure::interest_filter	file:
+interest_filter	ndn_client.c	/^struct interest_filter { \/* keyed by components of name *\/$/;"	s	file:
+interest_filters	ndn_client.c	/^    struct hashtb *interest_filters;$/;"	m	struct:ndn	typeref:struct:ndn::hashtb	file:
+interest_msg	ndn_client.c	/^    unsigned char *interest_msg; \/* the interest message as sent *\/$/;"	m	struct:expressed_interest	file:
+interestbuf	ndn_client.c	/^    struct ndn_charbuf *interestbuf;$/;"	m	struct:ndn	typeref:struct:ndn::ndn_charbuf	file:
+interests_by_prefix	ndn_client.c	/^    struct hashtb *interests_by_prefix;$/;"	m	struct:ndn	typeref:struct:ndn::hashtb	file:
+interests_by_prefix	ndn_client.c	/^struct interests_by_prefix { \/* keyed by components of name prefix *\/$/;"	s	file:
+is_left	ndn_signing.c	/^#define is_left(/;"	d	file:
+is_uri_reserved	ndn_uri.c	/^is_uri_reserved(const unsigned char ch)$/;"	f	file:
+item_size	hashtb.c	/^    size_t item_size;           \/* Size of client's per-entry data *\/$/;"	m	struct:hashtb	file:
+keys	ndn_client.c	/^    struct hashtb *keys;    \/* 公钥 public keys, by pubid *\/$/;"	m	struct:ndn	typeref:struct:ndn::hashtb	file:
+keysize	hashtb.c	/^    size_t keysize;$/;"	m	struct:node	file:
+keystores	ndn_client.c	/^    struct hashtb *keystores;   \/* unlocked private keys *\/$/;"	m	struct:ndn	typeref:struct:ndn::hashtb	file:
+lasttime	ndn_client.c	/^    struct timeval lasttime;     \/* time most recently expressed *\/$/;"	m	struct:expressed_interest	typeref:struct:expressed_interest::timeval	file:
+lasttime	ndn_schedule.c	/^    struct ndn_timeval lasttime; \/* 实际上次检测的时间 actual time when we last checked  *\/$/;"	m	struct:ndn_schedule	typeref:struct:ndn_schedule::ndn_timeval	file:
+lifetime_us	ndn_client.c	/^    int lifetime_us;             \/* interest lifetime in microseconds *\/$/;"	m	struct:expressed_interest	file:
+link	hashtb.c	/^    struct node* link;$/;"	m	struct:node	typeref:struct:node::node	file:
+list	ndn_client.c	/^    struct expressed_interest *list;$/;"	m	struct:interests_by_prefix	typeref:struct:interests_by_prefix::expressed_interest	file:
+magic	ndn_client.c	/^    int magic;                   \/* for sanity checking *\/$/;"	m	struct:expressed_interest	file:
+main	mypeek.c	/^int main(int argc, char** argv) {$/;"	f
+md_from_digest_and_pkey	ndn_signing.c	/^md_from_digest_and_pkey(const char *digest, const struct ndn_pkey *pkey)$/;"	f	file:
+me	ndn_client.c	/^    struct ndn_closure me;$/;"	m	struct:multifilt	typeref:struct:multifilt::ndn_closure	file:
+ms_to_tu	ndn_versioning.c	/^ms_to_tu(int m)$/;"	f	file:
+multifilt	ndn_client.c	/^struct multifilt {$/;"	s	file:
+multifilt_item	ndn_client.c	/^struct multifilt_item {$/;"	s	file:
+my_gettime	ndn_schedule.c	/^my_gettime(const struct ndn_gettime *self, struct ndn_timeval *result)$/;"	f	file:
+n	hashtb.c	/^    int n;                      \/* 入口数量 Number of entries *\/$/;"	m	struct:hashtb	file:
+n	ndn_bloom.c	/^    int n;$/;"	m	struct:ndn_bloom	file:
+n	ndn_client.c	/^    int n;                      \/**< Number of elements in a *\/$/;"	m	struct:multifilt	file:
+n_buckets	hashtb.c	/^    unsigned n_buckets;         \/* 位置桶的容量 *\/$/;"	m	struct:hashtb	file:
+ndn	ndn_client.c	/^struct ndn {$/;"	s	file:
+ndn_add_entropy	ndn_signing.c	/^ndn_add_entropy(const void *buf, size_t size, int bits_of_entropy)$/;"	f
+ndn_age_interest	ndn_client.c	/^ndn_age_interest(struct ndn *h,$/;"	f	file:
+ndn_append_link_name	ndn_client.c	/^ndn_append_link_name(struct ndn_charbuf *name, const unsigned char *data, size_t data_size)$/;"	f	file:
+ndn_append_pubkey_blob	ndn_signing.c	/^ndn_append_pubkey_blob(struct ndn_charbuf *c, const struct ndn_pkey *i_pubkey)$/;"	f
+ndn_append_uri_component	ndn_uri.c	/^ndn_append_uri_component(struct ndn_charbuf *c, const char *s, size_t limit, size_t *cont)$/;"	f	file:
+ndn_bloom	ndn_bloom.c	/^struct ndn_bloom {$/;"	s	file:
+ndn_bloom_create	ndn_bloom.c	/^ndn_bloom_create(int estimated_members, const unsigned char seed[4])$/;"	f
+ndn_bloom_destroy	ndn_bloom.c	/^ndn_bloom_destroy(struct ndn_bloom **bp)$/;"	f
+ndn_bloom_from_wire	ndn_bloom.c	/^ndn_bloom_from_wire(const void *data, size_t size)$/;"	f
+ndn_bloom_insert	ndn_bloom.c	/^ndn_bloom_insert(struct ndn_bloom *b, const void *key, size_t size)$/;"	f
+ndn_bloom_match	ndn_bloom.c	/^ndn_bloom_match(struct ndn_bloom *b, const void *key, size_t size)$/;"	f
+ndn_bloom_match_wire	ndn_bloom.c	/^ndn_bloom_match_wire(const struct ndn_bloom_wire *f, const void *key, size_t size)$/;"	f
+ndn_bloom_n	ndn_bloom.c	/^ndn_bloom_n(struct ndn_bloom *b)$/;"	f
+ndn_bloom_store_wire	ndn_bloom.c	/^ndn_bloom_store_wire(struct ndn_bloom *b, unsigned char *dest, size_t destsize)$/;"	f
+ndn_bloom_validate_wire	ndn_bloom.c	/^ndn_bloom_validate_wire(const void *buf, size_t size)$/;"	f
+ndn_bloom_wiresize	ndn_bloom.c	/^ndn_bloom_wiresize(struct ndn_bloom *b)$/;"	f
+ndn_buf_advance	ndn_buf_decoder.c	/^ndn_buf_advance(struct ndn_buf_decoder *d)$/;"	f
+ndn_buf_advance_past_element	ndn_buf_decoder.c	/^ndn_buf_advance_past_element(struct ndn_buf_decoder *d)$/;"	f
+ndn_buf_check_close	ndn_buf_decoder.c	/^ndn_buf_check_close(struct ndn_buf_decoder *d)$/;"	f
+ndn_buf_decoder_start	ndn_buf_decoder.c	/^ndn_buf_decoder_start(struct ndn_buf_decoder *d,$/;"	f
+ndn_buf_decoder_start_at_components	ndn_buf_decoder.c	/^ndn_buf_decoder_start_at_components(struct ndn_buf_decoder *d,$/;"	f	file:
+ndn_buf_match_attr	ndn_buf_decoder.c	/^ndn_buf_match_attr(struct ndn_buf_decoder *d, const char *s)$/;"	f
+ndn_buf_match_blob	ndn_buf_decoder.c	/^ndn_buf_match_blob(struct ndn_buf_decoder *d,$/;"	f
+ndn_buf_match_dtag	ndn_buf_decoder.c	/^ndn_buf_match_dtag(struct ndn_buf_decoder *d, enum ndn_dtag dtag)$/;"	f
+ndn_buf_match_some_blob	ndn_buf_decoder.c	/^ndn_buf_match_some_blob(struct ndn_buf_decoder *d)$/;"	f
+ndn_buf_match_some_dtag	ndn_buf_decoder.c	/^ndn_buf_match_some_dtag(struct ndn_buf_decoder *d)$/;"	f
+ndn_buf_match_udata	ndn_buf_decoder.c	/^ndn_buf_match_udata(struct ndn_buf_decoder *d, const char *s)$/;"	f
+ndn_cache_key	ndn_client.c	/^ndn_cache_key(struct ndn *h,$/;"	f	file:
+ndn_charbuf_append	ndn_charbuf.c	/^ndn_charbuf_append(struct ndn_charbuf *c, const void *p, size_t n)$/;"	f
+ndn_charbuf_append_charbuf	ndn_charbuf.c	/^ndn_charbuf_append_charbuf(struct ndn_charbuf *c, const struct ndn_charbuf *in)$/;"	f
+ndn_charbuf_append_closer	ndn_buf_encoder.c	/^ndn_charbuf_append_closer(struct ndn_charbuf *c)$/;"	f
+ndn_charbuf_append_datetime	ndn_charbuf.c	/^ndn_charbuf_append_datetime(struct ndn_charbuf *c, time_t secs, int nsecs)$/;"	f
+ndn_charbuf_append_sockaddr	ndn_sockaddrutil.c	/^ndn_charbuf_append_sockaddr(struct ndn_charbuf *c, const struct sockaddr *sa)$/;"	f
+ndn_charbuf_append_string	ndn_charbuf.c	/^ndn_charbuf_append_string(struct ndn_charbuf *c, const char *s)$/;"	f
+ndn_charbuf_append_tt	ndn_buf_encoder.c	/^ndn_charbuf_append_tt(struct ndn_charbuf *c, size_t val, enum ndn_tt tt)$/;"	f
+ndn_charbuf_append_value	ndn_charbuf.c	/^ndn_charbuf_append_value(struct ndn_charbuf *c, unsigned val, unsigned n)$/;"	f
+ndn_charbuf_as_string	ndn_charbuf.c	/^ndn_charbuf_as_string(struct ndn_charbuf *c)$/;"	f
+ndn_charbuf_create	ndn_charbuf.c	/^ndn_charbuf_create(void)$/;"	f
+ndn_charbuf_create_n	ndn_charbuf.c	/^ndn_charbuf_create_n(size_t n)$/;"	f
+ndn_charbuf_destroy	ndn_charbuf.c	/^ndn_charbuf_destroy(struct ndn_charbuf **cbp)$/;"	f
+ndn_charbuf_putf	ndn_charbuf.c	/^ndn_charbuf_putf(struct ndn_charbuf *c, const char *fmt, ...)$/;"	f
+ndn_charbuf_reserve	ndn_charbuf.c	/^ndn_charbuf_reserve(struct ndn_charbuf *c, size_t n)$/;"	f
+ndn_charbuf_reset	ndn_charbuf.c	/^void ndn_charbuf_reset(struct ndn_charbuf *c)$/;"	f
+ndn_check_interests	ndn_client.c	/^ndn_check_interests(struct expressed_interest *list)$/;"	f
+ndn_check_namebuf	ndn_client.c	/^ndn_check_namebuf(struct ndn *h, struct ndn_charbuf *namebuf, int prefix_comps,$/;"	f	file:
+ndn_check_pub_arrival	ndn_client.c	/^ndn_check_pub_arrival(struct ndn *h, struct expressed_interest *interest)$/;"	f	file:
+ndn_chk_signing_params	ndn_client.c	/^ndn_chk_signing_params(struct ndn *h,$/;"	f
+ndn_clean_all_interests	ndn_client.c	/^ndn_clean_all_interests(struct ndn *h)$/;"	f	file:
+ndn_clean_interests_by_prefix	ndn_client.c	/^ndn_clean_interests_by_prefix(struct ndn *h, struct interests_by_prefix *entry)$/;"	f
+ndn_compare_names	ndn_buf_decoder.c	/^ndn_compare_names(const unsigned char *a, size_t asize,$/;"	f
+ndn_connect	ndn_client.c	/^ndn_connect(struct ndn *h, const char *name)$/;"	f
+ndn_construct_interest	ndn_client.c	/^ndn_construct_interest(struct ndn *h,$/;"	f	file:
+ndn_content_get_value	ndn_buf_decoder.c	/^ndn_content_get_value(const unsigned char *data, size_t data_size,$/;"	f
+ndn_content_matches_interest	ndn_match.c	/^ndn_content_matches_interest(const unsigned char *content_object,$/;"	f
+ndn_create	ndn_client.c	/^ndn_create(void)$/;"	f
+ndn_create_version	ndn_versioning.c	/^ndn_create_version(struct ndn *h, struct ndn_charbuf *name,$/;"	f
+ndn_d2i_pubkey	ndn_signing.c	/^ndn_d2i_pubkey(const unsigned char *p, size_t size)$/;"	f
+ndn_defer_verification	ndn_client.c	/^ndn_defer_verification(struct ndn *h, int defer)$/;"	f
+ndn_destroy	ndn_client.c	/^ndn_destroy(struct ndn **hp)$/;"	f
+ndn_destroy_interest	ndn_client.c	/^ndn_destroy_interest(struct ndn *h, struct expressed_interest *i)$/;"	f	file:
+ndn_digest	ndn_digest.c	/^struct ndn_digest {$/;"	s	file:
+ndn_digest_Content	ndn_client.c	/^ndn_digest_Content(const unsigned char *content_object,$/;"	f	file:
+ndn_digest_ContentObject	ndn_match.c	/^ndn_digest_ContentObject(const unsigned char *content_object,$/;"	f
+ndn_digest_create	ndn_digest.c	/^ndn_digest_create(enum ndn_digest_id id)$/;"	f
+ndn_digest_destroy	ndn_digest.c	/^ndn_digest_destroy(struct ndn_digest **pd)$/;"	f
+ndn_digest_final	ndn_digest.c	/^ndn_digest_final(struct ndn_digest *d, unsigned char *result, size_t digest_size)$/;"	f
+ndn_digest_getid	ndn_digest.c	/^ndn_digest_getid(struct ndn_digest *d)$/;"	f
+ndn_digest_init	ndn_digest.c	/^ndn_digest_init(struct ndn_digest *d)$/;"	f
+ndn_digest_size	ndn_digest.c	/^ndn_digest_size(struct ndn_digest *d)$/;"	f
+ndn_digest_update	ndn_digest.c	/^ndn_digest_update(struct ndn_digest *d, const void *data, size_t size)$/;"	f
+ndn_disconnect	ndn_client.c	/^ndn_disconnect(struct ndn *h)$/;"	f
+ndn_dispatch_message	ndn_client.c	/^ndn_dispatch_message(struct ndn *h, unsigned char *msg, size_t size)$/;"	f
+ndn_encode_ContentObject	ndn_buf_encoder.c	/^ndn_encode_ContentObject(struct ndn_charbuf *buf,$/;"	f
+ndn_encode_Signature	ndn_buf_encoder.c	/^ndn_encode_Signature(struct ndn_charbuf *buf,$/;"	f	file:
+ndn_encode_StatusResponse	ndn_buf_encoder.c	/^ndn_encode_StatusResponse(struct ndn_charbuf *buf,$/;"	f
+ndn_excluded	ndn_match.c	/^ndn_excluded(const unsigned char *excl,$/;"	f
+ndn_express_interest	ndn_client.c	/^ndn_express_interest(struct ndn *h,$/;"	f
+ndn_fetch_tagged_nonNegativeInteger	ndn_buf_decoder.c	/^ndn_fetch_tagged_nonNegativeInteger(enum ndn_dtag tt,$/;"	f
+ndn_forwarding_entry_destroy	ndn_reg_mgmt.c	/^ndn_forwarding_entry_destroy(struct ndn_forwarding_entry **pfe)$/;"	f
+ndn_forwarding_entry_parse	ndn_reg_mgmt.c	/^ndn_forwarding_entry_parse(const unsigned char *p, size_t size)$/;"	f
+ndn_get	ndn_client.c	/^ndn_get(struct ndn *h,$/;"	f
+ndn_get_connect_type	ndn_client.c	/^ndn_get_connect_type(struct ndn *h)$/;"	f
+ndn_get_connection_fd	ndn_client.c	/^ndn_get_connection_fd(struct ndn *h)$/;"	f
+ndn_get_content_type	ndn_client.c	/^ndn_get_content_type(const unsigned char *ndnb,$/;"	f	file:
+ndn_get_public_key	ndn_client.c	/^ndn_get_public_key(struct ndn *h,$/;"	f
+ndn_get_public_key_and_name	ndn_client.c	/^ndn_get_public_key_and_name(struct ndn *h,$/;"	f
+ndn_get_schedule	ndn_client.c	/^ndn_get_schedule(struct ndn *h)$/;"	f
+ndn_geterror	ndn_client.c	/^ndn_geterror(struct ndn *h)$/;"	f
+ndn_grab_buffered_output	ndn_client.c	/^ndn_grab_buffered_output(struct ndn *h)$/;"	f
+ndn_gripe	ndn_client.c	/^ndn_gripe(struct expressed_interest *i)$/;"	f	file:
+ndn_guest_prefix	ndn_client.c	/^ndn_guest_prefix(struct ndn *h, struct ndn_charbuf *result, int ms)$/;"	f
+ndn_indexbuf_append	ndn_indexbuf.c	/^ndn_indexbuf_append(struct ndn_indexbuf *c, const ELEMENT *p, size_t n)$/;"	f
+ndn_indexbuf_append_element	ndn_indexbuf.c	/^ndn_indexbuf_append_element(struct ndn_indexbuf *c, ELEMENT v)$/;"	f
+ndn_indexbuf_create	ndn_indexbuf.c	/^ndn_indexbuf_create(void)$/;"	f
+ndn_indexbuf_destroy	ndn_indexbuf.c	/^ndn_indexbuf_destroy(struct ndn_indexbuf **cbp)$/;"	f
+ndn_indexbuf_member	ndn_indexbuf.c	/^ndn_indexbuf_member(struct ndn_indexbuf *x, ELEMENT val)$/;"	f
+ndn_indexbuf_move_to_end	ndn_indexbuf.c	/^ndn_indexbuf_move_to_end(struct ndn_indexbuf *x, ELEMENT val)$/;"	f
+ndn_indexbuf_move_to_front	ndn_indexbuf.c	/^ndn_indexbuf_move_to_front(struct ndn_indexbuf *x, ELEMENT val)$/;"	f
+ndn_indexbuf_obtain	ndn_client.c	/^ndn_indexbuf_obtain(struct ndn *h)$/;"	f	file:
+ndn_indexbuf_release	ndn_client.c	/^ndn_indexbuf_release(struct ndn *h, struct ndn_indexbuf *c)$/;"	f	file:
+ndn_indexbuf_remove_element	ndn_indexbuf.c	/^ndn_indexbuf_remove_element(struct ndn_indexbuf *x, ELEMENT val)$/;"	f
+ndn_indexbuf_remove_first_match	ndn_indexbuf.c	/^ndn_indexbuf_remove_first_match(struct ndn_indexbuf *x, ELEMENT val)$/;"	f
+ndn_indexbuf_reserve	ndn_indexbuf.c	/^ndn_indexbuf_reserve(struct ndn_indexbuf *c, size_t n)$/;"	f
+ndn_indexbuf_set_insert	ndn_indexbuf.c	/^ndn_indexbuf_set_insert(struct ndn_indexbuf *x, ELEMENT val)$/;"	f
+ndn_initiate_key_fetch	ndn_client.c	/^ndn_initiate_key_fetch(struct ndn *h,$/;"	f	file:
+ndn_initiate_ndndid_fetch	ndn_client.c	/^ndn_initiate_ndndid_fetch(struct ndn *h)$/;"	f	file:
+ndn_initiate_prefix_reg	ndn_client.c	/^ndn_initiate_prefix_reg(struct ndn *h,$/;"	f	file:
+ndn_interest_lifetime	ndn_interest.c	/^ndn_interest_lifetime(const unsigned char *msg,$/;"	f
+ndn_interest_lifetime_seconds	ndn_interest.c	/^ndn_interest_lifetime_seconds(const unsigned char *msg,$/;"	f
+ndn_is_final_block	ndn_client.c	/^ndn_is_final_block(struct ndn_upcall_info *info)$/;"	f
+ndn_is_final_pco	ndn_client.c	/^ndn_is_final_pco(const unsigned char *ndnb,$/;"	f
+ndn_keystore	ndn_keystore.c	/^struct ndn_keystore {$/;"	s	file:
+ndn_keystore_certificate	ndn_keystore.c	/^ndn_keystore_certificate(struct ndn_keystore *p)$/;"	f
+ndn_keystore_create	ndn_keystore.c	/^ndn_keystore_create(void)$/;"	f
+ndn_keystore_destroy	ndn_keystore.c	/^ndn_keystore_destroy(struct ndn_keystore **p)$/;"	f
+ndn_keystore_digest_algorithm	ndn_keystore.c	/^ndn_keystore_digest_algorithm(struct ndn_keystore *p)$/;"	f
+ndn_keystore_file_init	ndn_keystore.c	/^ndn_keystore_file_init(char *filename, char *password,$/;"	f
+ndn_keystore_get_pubkey_content_object	ndn_keystore.c	/^ndn_keystore_get_pubkey_content_object (struct ndn_keystore *keystore)$/;"	f
+ndn_keystore_get_pubkey_meta_content_object	ndn_keystore.c	/^ndn_keystore_get_pubkey_meta_content_object (struct ndn_keystore *keystore)$/;"	f
+ndn_keystore_get_pubkey_name	ndn_keystore.c	/^ndn_keystore_get_pubkey_name (struct ndn_keystore *keystore)$/;"	f
+ndn_keystore_init	ndn_keystore.c	/^ndn_keystore_init(struct ndn_keystore *p, char *filename, char *password)$/;"	f
+ndn_keystore_init_pubcert	ndn_keystore.c	/^ndn_keystore_init_pubcert(struct ndn_keystore *p, const char *keystoreFilename)$/;"	f	file:
+ndn_keystore_private_key	ndn_keystore.c	/^ndn_keystore_private_key(struct ndn_keystore *p)$/;"	f
+ndn_keystore_pubcert_from_keystore_file	ndn_keystore.c	/^ndn_keystore_pubcert_from_keystore_file (const char *keystoreFilename)$/;"	f	file:
+ndn_keystore_public_key	ndn_keystore.c	/^ndn_keystore_public_key(struct ndn_keystore *p)$/;"	f
+ndn_keystore_public_key_digest	ndn_keystore.c	/^ndn_keystore_public_key_digest(struct ndn_keystore *p)$/;"	f
+ndn_keystore_public_key_digest_length	ndn_keystore.c	/^ndn_keystore_public_key_digest_length(struct ndn_keystore *p)$/;"	f
+ndn_load_default_key	ndn_client.c	/^ndn_load_default_key(struct ndn *h,$/;"	f
+ndn_load_or_create_default_key	ndn_client.c	/^ndn_load_or_create_default_key(struct ndn *h)$/;"	f	file:
+ndn_load_or_create_key	ndn_client.c	/^ndn_load_or_create_key(struct ndn *h,$/;"	f	file:
+ndn_load_private_key	ndn_client.c	/^ndn_load_private_key(struct ndn *h,$/;"	f
+ndn_locate_key	ndn_client.c	/^ndn_locate_key(struct ndn *h,$/;"	f	file:
+ndn_merkle_root_hash	ndn_signing.c	/^int ndn_merkle_root_hash(const unsigned char *msg, size_t size,$/;"	f
+ndn_name_append	ndn_name_util.c	/^ndn_name_append(struct ndn_charbuf *c, const void *component, size_t n)$/;"	f
+ndn_name_append_components	ndn_name_util.c	/^ndn_name_append_components(struct ndn_charbuf *c,$/;"	f
+ndn_name_append_nonce	ndn_name_util.c	/^ndn_name_append_nonce(struct ndn_charbuf *c)$/;"	f
+ndn_name_append_numeric	ndn_name_util.c	/^ndn_name_append_numeric(struct ndn_charbuf *c,$/;"	f
+ndn_name_append_str	ndn_name_util.c	/^ndn_name_append_str(struct ndn_charbuf *c, const char *s)$/;"	f
+ndn_name_chop	ndn_name_util.c	/^ndn_name_chop(struct ndn_charbuf *c, struct ndn_indexbuf *components, int n)$/;"	f
+ndn_name_comp_get	ndn_name_util.c	/^ndn_name_comp_get(const unsigned char *data,$/;"	f
+ndn_name_comp_strcmp	ndn_name_util.c	/^ndn_name_comp_strcmp(const unsigned char *data,$/;"	f
+ndn_name_from_uri	ndn_uri.c	/^ndn_name_from_uri(struct ndn_charbuf *c, const char *uri)$/;"	f
+ndn_name_init	ndn_name_util.c	/^ndn_name_init(struct ndn_charbuf *c)$/;"	f
+ndn_name_last_component_offset	ndn_uri.c	/^ndn_name_last_component_offset(const unsigned char *ndnb, size_t size)$/;"	f	file:
+ndn_name_next_sibling	ndn_name_util.c	/^ndn_name_next_sibling(struct ndn_charbuf *c)$/;"	f
+ndn_name_split	ndn_name_util.c	/^ndn_name_split(const struct ndn_charbuf *c, struct ndn_indexbuf *components)$/;"	f
+ndn_note_err	ndn_client.c	/^ndn_note_err(struct ndn *h)$/;"	f	file:
+ndn_notify_ndndid_changed	ndn_client.c	/^ndn_notify_ndndid_changed(struct ndn *h)$/;"	f	file:
+ndn_output_is_pending	ndn_client.c	/^ndn_output_is_pending(struct ndn *h)$/;"	f
+ndn_parse_Collection_next	ndn_buf_decoder.c	/^ndn_parse_Collection_next(struct ndn_buf_decoder *d,$/;"	f
+ndn_parse_Collection_start	ndn_buf_decoder.c	/^ndn_parse_Collection_start(struct ndn_buf_decoder *d)$/;"	f
+ndn_parse_ContentObject	ndn_buf_decoder.c	/^ndn_parse_ContentObject(const unsigned char *msg, size_t size,$/;"	f
+ndn_parse_Exclude	ndn_buf_decoder.c	/^ndn_parse_Exclude(struct ndn_buf_decoder *d)$/;"	f
+ndn_parse_KeyName	ndn_buf_decoder.c	/^ndn_parse_KeyName(struct ndn_buf_decoder *d, struct parsed_KeyName *x)$/;"	f	file:
+ndn_parse_Link	ndn_buf_decoder.c	/^ndn_parse_Link(struct ndn_buf_decoder *d,$/;"	f
+ndn_parse_LinkAuthenticator	ndn_buf_decoder.c	/^ndn_parse_LinkAuthenticator(struct ndn_buf_decoder *d, struct ndn_parsed_Link *pl)$/;"	f
+ndn_parse_Name	ndn_buf_decoder.c	/^ndn_parse_Name(struct ndn_buf_decoder *d, struct ndn_indexbuf *components)$/;"	f
+ndn_parse_PublisherID	ndn_buf_decoder.c	/^ndn_parse_PublisherID(struct ndn_buf_decoder *d, struct ndn_parsed_interest *pi)$/;"	f
+ndn_parse_Signature	ndn_buf_decoder.c	/^ndn_parse_Signature(struct ndn_buf_decoder *d, struct ndn_parsed_ContentObject *x)$/;"	f	file:
+ndn_parse_SignedInfo	ndn_buf_decoder.c	/^ndn_parse_SignedInfo(struct ndn_buf_decoder *d, struct ndn_parsed_ContentObject *x)$/;"	f	file:
+ndn_parse_interest	ndn_buf_decoder.c	/^ndn_parse_interest(const unsigned char *msg, size_t size,$/;"	f
+ndn_parse_nonNegativeInteger	ndn_buf_decoder.c	/^ndn_parse_nonNegativeInteger(struct ndn_buf_decoder *d)$/;"	f
+ndn_parse_optional_Any_or_Bloom	ndn_buf_decoder.c	/^ndn_parse_optional_Any_or_Bloom(struct ndn_buf_decoder *d)$/;"	f	file:
+ndn_parse_optional_tagged_BLOB	ndn_buf_decoder.c	/^ndn_parse_optional_tagged_BLOB(struct ndn_buf_decoder *d, enum ndn_dtag dtag,$/;"	f
+ndn_parse_optional_tagged_UDATA	ndn_buf_decoder.c	/^ndn_parse_optional_tagged_UDATA(struct ndn_buf_decoder *d, enum ndn_dtag dtag)$/;"	f
+ndn_parse_optional_tagged_binary_number	ndn_buf_decoder.c	/^ndn_parse_optional_tagged_binary_number(struct ndn_buf_decoder *d, enum ndn_dtag dtag,$/;"	f
+ndn_parse_optional_tagged_nonNegativeInteger	ndn_buf_decoder.c	/^ndn_parse_optional_tagged_nonNegativeInteger(struct ndn_buf_decoder *d, enum ndn_dtag dtag)$/;"	f
+ndn_parse_required_tagged_BLOB	ndn_buf_decoder.c	/^ndn_parse_required_tagged_BLOB(struct ndn_buf_decoder *d, enum ndn_dtag dtag,$/;"	f
+ndn_parse_required_tagged_UDATA	ndn_buf_decoder.c	/^ndn_parse_required_tagged_UDATA(struct ndn_buf_decoder *d, enum ndn_dtag dtag)$/;"	f
+ndn_parse_required_tagged_binary_number	ndn_buf_decoder.c	/^ndn_parse_required_tagged_binary_number(struct ndn_buf_decoder *d,$/;"	f
+ndn_parse_required_tagged_timestamp	ndn_buf_decoder.c	/^ndn_parse_required_tagged_timestamp(struct ndn_buf_decoder *d, enum ndn_dtag dtag)$/;"	f
+ndn_parse_tagged_string	ndn_buf_decoder.c	/^ndn_parse_tagged_string(struct ndn_buf_decoder *d, enum ndn_dtag dtag, struct ndn_charbuf *store)$/;"	f
+ndn_parse_timestamp	ndn_buf_decoder.c	/^ndn_parse_timestamp(struct ndn_buf_decoder *d)$/;"	f
+ndn_parse_uintmax	ndn_buf_decoder.c	/^ndn_parse_uintmax(struct ndn_buf_decoder *d, uintmax_t *result)$/;"	f
+ndn_perror	ndn_client.c	/^ndn_perror(struct ndn *h, const char *s)$/;"	f
+ndn_process_input	ndn_client.c	/^ndn_process_input(struct ndn *h)$/;"	f	file:
+ndn_process_scheduled_operations	ndn_client.c	/^ndn_process_scheduled_operations(struct ndn *h)$/;"	f
+ndn_pubid_matches	ndn_match.c	/^ndn_pubid_matches(const unsigned char *content_object,$/;"	f	file:
+ndn_pubkey_free	ndn_signing.c	/^ndn_pubkey_free(struct ndn_pkey *i_pubkey)$/;"	f
+ndn_pubkey_size	ndn_signing.c	/^ndn_pubkey_size(const struct ndn_pkey *i_pubkey)$/;"	f
+ndn_pushout	ndn_client.c	/^ndn_pushout(struct ndn *h)$/;"	f	file:
+ndn_put	ndn_client.c	/^ndn_put(struct ndn *h, const void *p, size_t length)$/;"	f
+ndn_random_bytes	ndn_signing.c	/^ndn_random_bytes(unsigned char *buf, size_t size)$/;"	f
+ndn_ref_tagged_BLOB	ndn_buf_decoder.c	/^ndn_ref_tagged_BLOB(enum ndn_dtag tt,$/;"	f
+ndn_ref_tagged_string	ndn_buf_decoder.c	/^ndn_ref_tagged_string(enum ndn_dtag dtag,$/;"	f
+ndn_refresh_interest	ndn_client.c	/^ndn_refresh_interest(struct ndn *h, struct expressed_interest *interest)$/;"	f	file:
+ndn_reg_closure	ndn_client.c	/^    struct ndn_reg_closure *ndn_reg_closure;$/;"	m	struct:interest_filter	typeref:struct:interest_filter::ndn_reg_closure	file:
+ndn_reg_closure	ndn_client.c	/^struct ndn_reg_closure {$/;"	s	file:
+ndn_replace_handler	ndn_client.c	/^ndn_replace_handler(struct ndn *h,$/;"	f	file:
+ndn_resolve_version	ndn_versioning.c	/^ndn_resolve_version(struct ndn *h, struct ndn_charbuf *name,$/;"	f
+ndn_run	ndn_client.c	/^ndn_run(struct ndn *h, int timeout)$/;"	f
+ndn_schedule	ndn_schedule.c	/^struct ndn_schedule {$/;"	s	file:
+ndn_schedule_cancel	ndn_schedule.c	/^ndn_schedule_cancel(struct ndn_schedule *sched, struct ndn_scheduled_event *ev)$/;"	f
+ndn_schedule_cancelled_event	ndn_schedule.c	/^ndn_schedule_cancelled_event(struct ndn_schedule *sched, void *clienth,$/;"	f	file:
+ndn_schedule_create	ndn_schedule.c	/^ndn_schedule_create(void *clienth, const struct ndn_gettime *ndnclock)$/;"	f
+ndn_schedule_destroy	ndn_schedule.c	/^ndn_schedule_destroy(struct ndn_schedule **schedp)$/;"	f
+ndn_schedule_event	ndn_schedule.c	/^ndn_schedule_event($/;"	f
+ndn_schedule_get_gettime	ndn_schedule.c	/^ndn_schedule_get_gettime(struct ndn_schedule *schedp) {$/;"	f
+ndn_schedule_heap_item	ndn_schedule.c	/^struct ndn_schedule_heap_item {$/;"	s	file:
+ndn_schedule_run	ndn_schedule.c	/^ndn_schedule_run(struct ndn_schedule *sched)$/;"	f
+ndn_schedule_run_next	ndn_schedule.c	/^ndn_schedule_run_next(struct ndn_schedule *sched)$/;"	f	file:
+ndn_set_connect_type	ndn_client.c	/^ndn_set_connect_type(struct ndn *h, const char *name)$/;"	f
+ndn_set_interest_filter	ndn_client.c	/^ndn_set_interest_filter(struct ndn *h, struct ndn_charbuf *namebuf,$/;"	f
+ndn_set_interest_filter_with_flags	ndn_client.c	/^ndn_set_interest_filter_with_flags(struct ndn *h, struct ndn_charbuf *namebuf,$/;"	f
+ndn_set_run_timeout	ndn_client.c	/^ndn_set_run_timeout(struct ndn *h, int timeout)$/;"	f
+ndn_set_schedule	ndn_client.c	/^ndn_set_schedule(struct ndn *h, struct ndn_schedule *schedule)$/;"	f
+ndn_seterror	ndn_client.c	/^ndn_seterror(struct ndn *h, int error_code)$/;"	f
+ndn_setup_sockaddr_in	ndn_setup_sockaddr_un.c	/^ndn_setup_sockaddr_in(const char *name, struct sockaddr *result, int length)$/;"	f
+ndn_setup_sockaddr_un	ndn_setup_sockaddr_un.c	/^ndn_setup_sockaddr_un(const char *portstr, struct sockaddr_un *result)$/;"	f
+ndn_sigc	ndn_signing.c	/^struct ndn_sigc {$/;"	s	file:
+ndn_sigc_create	ndn_signing.c	/^ndn_sigc_create(void)$/;"	f
+ndn_sigc_destroy	ndn_signing.c	/^ndn_sigc_destroy(struct ndn_sigc **ctx)$/;"	f
+ndn_sigc_final	ndn_signing.c	/^ndn_sigc_final(struct ndn_sigc *ctx, struct ndn_signature *signature, size_t *size, const struct ndn_pkey *priv_key)$/;"	f
+ndn_sigc_init	ndn_signing.c	/^ndn_sigc_init(struct ndn_sigc *ctx, const char *digest, const struct ndn_pkey *priv_key)$/;"	f
+ndn_sigc_signature_max_size	ndn_signing.c	/^ndn_sigc_signature_max_size(struct ndn_sigc *ctx, const struct ndn_pkey *priv_key)$/;"	f
+ndn_sigc_update	ndn_signing.c	/^ndn_sigc_update(struct ndn_sigc *ctx, const void *data, size_t size)$/;"	f
+ndn_sign_content	ndn_client.c	/^ndn_sign_content(struct ndn *h,$/;"	f
+ndn_signed_info_create	ndn_buf_encoder.c	/^ndn_signed_info_create(struct ndn_charbuf *c,$/;"	f
+ndn_skeleton_decode	ndn_coding.c	/^ndn_skeleton_decode(struct ndn_skeleton_decoder *d,$/;"	f
+ndn_update_refresh_us	ndn_client.c	/^ndn_update_refresh_us(struct ndn *h, struct timeval *tv)$/;"	f	file:
+ndn_uri_append	ndn_uri.c	/^ndn_uri_append(struct ndn_charbuf *c,$/;"	f
+ndn_uri_append_mixedescaped	ndn_uri.c	/^ndn_uri_append_mixedescaped(struct ndn_charbuf *c,$/;"	f
+ndn_uri_append_percentescaped	ndn_uri.c	/^ndn_uri_append_percentescaped(struct ndn_charbuf *c,$/;"	f
+ndn_verify_content	ndn_client.c	/^ndn_verify_content(struct ndn *h,$/;"	f
+ndn_verify_signature	ndn_signing.c	/^int ndn_verify_signature(const unsigned char *msg,$/;"	f
+ndnb_append_Link	ndn_buf_encoder.c	/^ndnb_append_Link(struct ndn_charbuf *buf,$/;"	f
+ndnb_append_forwarding_entry	ndn_reg_mgmt.c	/^ndnb_append_forwarding_entry(struct ndn_charbuf *c,$/;"	f
+ndnb_append_now_blob	ndn_buf_encoder.c	/^ndnb_append_now_blob(struct ndn_charbuf *c, enum ndn_marker marker)$/;"	f
+ndnb_append_number	ndn_buf_encoder.c	/^ndnb_append_number(struct ndn_charbuf *c, int nni)$/;"	f
+ndnb_append_tagged_binary_number	ndn_buf_encoder.c	/^ndnb_append_tagged_binary_number(struct ndn_charbuf *cb,$/;"	f
+ndnb_append_tagged_blob	ndn_buf_encoder.c	/^ndnb_append_tagged_blob(struct ndn_charbuf *c,$/;"	f
+ndnb_append_timestamp_blob	ndn_buf_encoder.c	/^ndnb_append_timestamp_blob(struct ndn_charbuf *c,$/;"	f
+ndnb_element_begin	ndn_buf_encoder.c	/^ndnb_element_begin(struct ndn_charbuf *c, enum ndn_dtag dtag)$/;"	f
+ndnb_element_end	ndn_buf_encoder.c	/^int ndnb_element_end(struct ndn_charbuf *c)$/;"	f
+ndnb_tagged_putf	ndn_buf_encoder.c	/^ndnb_tagged_putf(struct ndn_charbuf *c,$/;"	f
+ndndid	ndn_client.c	/^    struct ndn_charbuf *ndndid;$/;"	m	struct:ndn	typeref:struct:ndn::ndn_charbuf	file:
+next	ndn_client.c	/^    struct expressed_interest *next; \/* link to next in list *\/$/;"	m	struct:expressed_interest	typeref:struct:expressed_interest::expressed_interest	file:
+node	hashtb.c	/^struct node {$/;"	s	file:
+node_lr	ndn_signing.c	/^#define node_lr(/;"	d	file:
+now	ndn_client.c	/^    struct timeval now;$/;"	m	struct:ndn	typeref:struct:ndn::timeval	file:
+now	ndn_schedule.c	/^    heapmicros now;     \/* 内部始终，记录上次时间 internal micros corresponding to lasttime  *\/$/;"	m	struct:ndn_schedule	file:
+outbuf	ndn_client.c	/^    struct ndn_charbuf *outbuf;$/;"	m	struct:ndn	typeref:struct:ndn::ndn_charbuf	file:
+outbufindex	ndn_client.c	/^    size_t outbufindex;$/;"	m	struct:ndn	file:
+outstanding	ndn_client.c	/^    int outstanding;             \/* number currently outstanding (0 or 1) *\/$/;"	m	struct:expressed_interest	file:
+param	hashtb.c	/^    struct hashtb_param param;  \/* 保存的客户端参数 saved client parameters *\/$/;"	m	struct:hashtb	typeref:struct:hashtb::hashtb_param	file:
+parent_of	ndn_signing.c	/^#define parent_of(/;"	d	file:
+parsed_KeyName	ndn_buf_decoder.c	/^struct parsed_KeyName {$/;"	s	file:
+pcobuf	ndn_client.c	/^    struct ndn_parsed_ContentObject *pcobuf;$/;"	m	struct:simple_get_data	typeref:struct:simple_get_data::ndn_parsed_ContentObject	file:
+private_key	ndn_keystore.c	/^    EVP_PKEY *private_key;$/;"	m	struct:ndn_keystore	file:
+process_ndnb_data_once	ndn_keystore.c	/^process_ndnb_data_once(struct ndn_skeleton_decoder *d, unsigned char *data, size_t n, struct ndn_charbuf *output)$/;"	f	file:
+pubkey_content_object	ndn_keystore.c	/^    struct ndn_charbuf *pubkey_content_object;$/;"	m	struct:ndn_keystore	typeref:struct:ndn_keystore::ndn_charbuf	file:
+pubkey_digest	ndn_keystore.c	/^    unsigned char pubkey_digest[SHA256_DIGEST_LENGTH];$/;"	m	struct:ndn_keystore	file:
+pubkey_digest_length	ndn_keystore.c	/^    ssize_t pubkey_digest_length;$/;"	m	struct:ndn_keystore	file:
+pubkey_meta_content_object	ndn_keystore.c	/^    struct ndn_charbuf *pubkey_meta_content_object;$/;"	m	struct:ndn_keystore	typeref:struct:ndn_keystore::ndn_charbuf	file:
+pubkey_name	ndn_keystore.c	/^    struct ndn_charbuf *pubkey_name;$/;"	m	struct:ndn_keystore	typeref:struct:ndn_keystore::ndn_charbuf	file:
+public_key	ndn_keystore.c	/^    EVP_PKEY *public_key;$/;"	m	struct:ndn_keystore	file:
+ready	ndn_digest.c	/^    short ready;$/;"	m	struct:ndn_digest	file:
+refcount	hashtb.c	/^    int refcount;               \/* 活跃的迭代器数量 Number of open enumerators *\/$/;"	m	struct:hashtb	file:
+refresh_us	ndn_client.c	/^    int refresh_us;$/;"	m	struct:ndn	file:
+replace_interest_msg	ndn_client.c	/^replace_interest_msg(struct expressed_interest *interest,$/;"	f	file:
+res	ndn_client.c	/^    int res;$/;"	m	struct:simple_get_data	file:
+reschedule_event	ndn_schedule.c	/^reschedule_event($/;"	f	file:
+resolve_templ	ndn_versioning.c	/^resolve_templ(struct ndn_charbuf *templ, unsigned const char *vcomp,$/;"	f	file:
+resultbuf	ndn_client.c	/^    struct ndn_charbuf *resultbuf;$/;"	m	struct:simple_get_data	typeref:struct:simple_get_data::ndn_charbuf	file:
+running	ndn_client.c	/^    int running;$/;"	m	struct:ndn	file:
+scan_buckets	hashtb.c	/^scan_buckets(struct hashtb *ht, unsigned b)$/;"	f	file:
+schedule	ndn_client.c	/^    struct ndn_schedule *schedule;$/;"	m	struct:ndn	typeref:struct:ndn::ndn_schedule	file:
+scratch_indexbuf	ndn_client.c	/^    struct ndn_indexbuf *scratch_indexbuf;$/;"	m	struct:ndn	typeref:struct:ndn::ndn_indexbuf	file:
+setpos	hashtb.c	/^setpos(struct hashtb_enumerator *hte, struct node **pp)$/;"	f	file:
+sha256_ctx	ndn_digest.c	/^    SHA256_CTX sha256_ctx;$/;"	m	struct:ndn_digest	file:
+sha256ec_md	ndn_signing.c	/^static const EVP_MD sha256ec_md=$/;"	v	file:
+sibling_of	ndn_signing.c	/^#define sibling_of(/;"	d	file:
+simple_get_data	ndn_client.c	/^struct simple_get_data {$/;"	s	file:
+size	ndn_client.c	/^    size_t size;                 \/* its size in bytes *\/$/;"	m	struct:expressed_interest	file:
+sock	ndn_client.c	/^    int sock;$/;"	m	struct:ndn	file:
+sz	ndn_digest.c	/^    unsigned short sz;$/;"	m	struct:ndn_digest	file:
+tap	ndn_client.c	/^    int tap;$/;"	m	struct:ndn	file:
+target	ndn_client.c	/^    int target;                  \/* how many we want outstanding (0 or 1) *\/$/;"	m	struct:expressed_interest	file:
+testtick	ndn_schedule.c	/^testtick(struct ndn_schedule *sched)$/;"	f	file:
+time_leap	ndn_schedule.c	/^    int time_leap;      \/* number of times clock took a large jump *\/$/;"	m	struct:ndn_schedule	file:
+time_ran_backward	ndn_schedule.c	/^    int time_ran_backward; \/* number of times clock ran backwards *\/$/;"	m	struct:ndn_schedule	file:
+timeout	ndn_client.c	/^    int timeout;$/;"	m	struct:ndn	file:
+tv_earlier	ndn_client.c	/^tv_earlier(const struct timeval *a, const struct timeval *b)$/;"	f	file:
+update256	ndn_signing.c	/^static int update256(EVP_MD_CTX *ctx,const void *data,size_t count)$/;"	f	file:
+update_epoch	ndn_schedule.c	/^update_epoch(struct ndn_schedule *sched)$/;"	f	file:
+update_ifilt_flags	ndn_client.c	/^update_ifilt_flags(struct ndn *h, struct interest_filter *f, int forw_flags)$/;"	f	file:
+update_multifilt	ndn_client.c	/^update_multifilt(struct ndn *h,$/;"	f	file:
+update_time	ndn_schedule.c	/^update_time(struct ndn_schedule *sched)$/;"	f	file:
+verbose_error	ndn_client.c	/^    int verbose_error;$/;"	m	struct:ndn	file:
+wanted_pub	ndn_client.c	/^    struct ndn_charbuf *wanted_pub; \/* waiting for this pub to arrive *\/$/;"	m	struct:expressed_interest	typeref:struct:expressed_interest::ndn_charbuf	file:
+wire	ndn_bloom.c	/^    struct ndn_bloom_wire *wire;$/;"	m	struct:ndn_bloom	typeref:struct:ndn_bloom::ndn_bloom_wire	file:
